@@ -31,5 +31,5 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: jdgomeza/atlantis-cdk
-          tags: latest, v0.17.0
+          tags: latest, v0.17.6
 
