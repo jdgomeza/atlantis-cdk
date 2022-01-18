@@ -1,4 +1,4 @@
-FROM runatlantis/atlantis:v0.17.6
+FROM runatlantis/atlantis:v0.18.1
 
 ARG TERRAGRUNT=v0.35.16
 
