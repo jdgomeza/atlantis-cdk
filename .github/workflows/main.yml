@@ -53,6 +53,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: latest, v0.23.5
+          tags: ghcr.io/jdgomeza/atlantis:v0.23.5
           labels: ${{ steps.meta.outputs.labels }}
           
