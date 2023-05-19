@@ -1,6 +1,6 @@
-FROM runatlantis/atlantis:v0.18.2
+FROM runatlantis/atlantis:v0.23.5
 
-ARG TERRAGRUNT=v0.35.16
+ARG TERRAGRUNT=v0.45.14
 
 ADD https://github.com/gruntwork-io/terragrunt/releases/download/${TERRAGRUNT}/terragrunt_linux_amd64 /usr/local/bin/terragrunt
 
