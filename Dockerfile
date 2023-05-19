@@ -1,4 +1,4 @@
-FROM runatlantis/atlantis:v0.23.5
+FROM ghcr.io/runatlantis/atlantis:v0.23.5
 
 ARG TERRAGRUNT=v0.45.14
 
